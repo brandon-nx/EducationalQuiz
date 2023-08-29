@@ -1,0 +1,62 @@
+h3 {
+	font-family: cursive;
+	font-size:  20px;
+	font-weight:  bold;
+	text-align:  center;
+	color: white;
+
+	width: 330px;
+	padding: 5px 22px;
+	border-radius:  10px 10px 0 0;
+	margin:  20px auto 0;
+	background-color: #FF6D6D ;
+	box-shadow: 10px 10px 5px rgba(96, 96, 96, 0.7);
+}
+
+form {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+	width: 330px;
+	padding: 20px;
+	border:  2px solid hotpink;
+	border-radius: 0 0 10px 10px;
+	margin:  0 auto;
+	background-color:  rgba(231, 76, 60, 0.7);
+	box-shadow: 10px 10px 5px rgba(96, 96, 96, 0.7);
+}
+
+
+/* cantumkan sekali */
+input[type="text"],
+input[type="password"],
+select {
+	width:  200px;
+	padding:  5px;
+	margin:  5px;
+}
+
+table {
+	font-family:  cursive;
+	font-size:  18px;
+	color: white;
+}
+
+h2.mesej {
+	font-family: monospace;
+	font-size:  20px;
+	font-weight:  bold;
+	text-align:  center;
+	color:  white;
+
+	width: 330px;
+	padding: 20px;
+	border:  2px solid hotpink;
+	border-radius: 0px 0px 10px 10px;
+	margin:  0px auto;
+	background-color:  rgba(255, 109, 109, 0.8);
+	box-shadow: 15px 15px 6px rgba(96, 96, 96, 0.7);
+}

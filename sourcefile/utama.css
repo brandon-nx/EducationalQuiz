@@ -1,0 +1,33 @@
+div {
+	width:  800px;
+	height:  550px;
+	margin: 30px auto;
+	border-radius: 15px;
+	box-shadow: 15px 15px 6px rgba(106, 96, 96, 0.7);
+}
+
+iframe.header {
+	width:  800px;
+	height:  50px;
+	border-radius: 10px 10px 0 0;
+	float:  left;
+}
+
+iframe.menu {
+	clear: left;	
+	float: left;
+	position:  relative;
+	border:  none;
+	border-radius:  0 0 0 15px;
+	width:  170px;
+	height: 500px;
+}
+
+iframe.kandungan {
+	float:  left;
+	position: relative;
+	border:  none;
+	border-radius:  0 0 10px 0;
+	width: 630px;
+	height:  500px;
+}

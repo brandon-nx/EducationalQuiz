@@ -1,0 +1,31 @@
+<link rel="stylesheet"href="borang.css">
+<link rel="stylesheet"href="butang.css">
+
+
+<h3 class="panjang">ADD NEW QUIZ</h3>
+<form class="panjang"action="kuiz_insert.php"method="post">
+	<table>
+		<tr>
+			<tr>
+			<td>Quiz ID</td>
+			<td>
+				<input type="text" name="id_kuiz" placeholder="eg. K001">
+			</td>
+		</tr>
+		<tr>
+			<td>Quiz Name</td>
+			<td><input type="text" name="nama_kuiz"></td> 
+		</tr>
+		<tr>
+			<td>Quiz Type</td>
+			<td>
+				<select name="jenis_kuiz">
+				<option value="objective_qs">Objective Qs</option>
+				<option value="true/false_qs">True/False Qs</option>
+				<option value="input_qs">Input Qs</option>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<button class="tambah" type='submit'>Add</button>
+</form>

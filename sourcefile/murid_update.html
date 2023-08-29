@@ -1,0 +1,30 @@
+<link rel="stylesheet"href="borang.css">
+<link rel="stylesheet"href="butang.css">
+
+<h3 class="panjang">UPDATE STUDENT</h3>
+<form class="panjang"action="murid_update.php"method="post">
+	<table>
+		<tr>
+			<tr>
+			<td class="warna">Student IC</td>
+			<td>
+				<input type="text" name="id_murid" placeholder="IC eg. 123456-13-5555">
+			</td>
+		</tr>
+		<tr>
+			<td class="warna">Name</td>
+			<td><input type="text" name="nama_murid"></td> 
+		</tr>
+		<tr>
+			<td class="warna">Class</td>
+			<td><select name="id_kelas">
+				<option value="5A">5A</option>
+				<option value="5B">5B</option>
+				<option value="5C">5C</option>
+			</td> 
+		</tr>
+	</table>
+	<br>
+	<button class="tambah" type='submit'>Update</button>
+</form>
+<br>

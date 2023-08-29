@@ -1,0 +1,4 @@
+S103,Which metals can displace zinc from zinc nitrate solution?,Magnesium,Silver,Copper,Iron,A,1,G001,Q001,1
+S203,Explain why the electrolyte has to be a liquid.,So the ions can move,So the electrons can move,So that it doesn't get too hot,So the fish are ok,A,1,G001,Q002,1
+S302,Which of the following cannot occur during oxidation?,gain of oxygen,loss of hydrogen,donation of electron,decrease in oxidation number,D,1,G001,Q003,1
+S303,In the reaction Zn + H2O --> ZnO2 + H2 which element is oxidised?,Zinc,Hydrogen,Oxygen,None,A,1,G001,Q003,1

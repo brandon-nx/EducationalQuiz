@@ -1,0 +1,2 @@
+# EducationalQuiz
+ Introducing "EducationalQuiz": Your Interactive Learning Companion  Discover a new era of interactive learning with EducationalQuiz! As an educator, easily create and customize quizzes to engage your students. Meanwhile, students can immerse themselves in knowledge by answering quizzes in a fun and dynamic way. Join us in making learning an exciting adventure with EducationalQuiz!

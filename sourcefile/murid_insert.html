@@ -1,0 +1,51 @@
+<link rel="stylesheet"href="borang.css">
+<link rel="stylesheet"href="button.css">
+
+<h3 class="panjang">ADD NEW STUDENT</h3>
+<form class="panjang"action="murid_insert.php"method="post">
+	<table>
+		<tr>
+			<tr>
+			<td class="warna">Student IC</td>
+			<td>
+				<input type="text" name="id_murid" placeholder="Eg. 123456-13-5555">
+			</td>
+		</tr>
+		<tr>
+			<td class="warna">Student Name</td>
+			<td><input type="text" name="nama_murid"></td> 
+		</tr>
+		<tr>
+			<td class="warna">Class</td>
+			<td><select name="id_kelas">
+				<option value="5A">5A</option>
+				<option value="5B">5B</option>
+				<option value="5C">5C</option>
+			</td> 
+		</tr>
+		<tr>
+			<td class="warna">Password</td>
+			<td><input type="password" name="password_murid"placeholder="max: 20 char"></td>
+		</tr>
+	</table>
+	<br>
+	<button class="tambah" type='submit'>Add</button>
+</form>
+<br>
+
+<center>
+	<button class=white onclick="tukar_warna(0)">White</button>
+	<button class=blue onclick="tukar_warna(1)">Blue</button>
+	<button class=green onclick="tukar_warna(2)">Green</button>
+	<button class=pink onclick="tukar_warna(3)">Pink</button>
+	<button class=yellow onclick="tukar_warna(4)">Yellow</button>
+</center>
+
+<script>
+	function tukar_warna(n) {
+		var warna = ["#FFFFFF", "#AFDEFF", "#A1F39C", "#FFCAAF", "#FCFFAF"];
+		var teks = document.getElementsByClassName("warna");
+		for (var i=0; i<teks.length; i++)
+			teks[i].style.color = warna[n];
+	}
+</script>
